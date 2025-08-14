@@ -6,6 +6,13 @@ This query retrieves a specific episode from the Rick and Morty API using its un
 
 **Query Example:**
 
+### Field retrieved
+
+- id
+- name
+- episode
+- air_date
+
 ```graphql
 query {
   episode(id: 1) {
